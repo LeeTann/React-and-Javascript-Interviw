@@ -1,11 +1,12 @@
 import React from 'react'
-import Unidirectional from './Unidirectional'
+import { Controlled, UnControlled } from './ControlledVsUncontrolled'
 
 function App() {
   return (
     <>
       <h1>Practice</h1>
-      <Unidirectional />
+      <Controlled />
+      <UnControlled />
     </>
   )
 }
