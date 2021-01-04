@@ -1,12 +1,11 @@
 import React from 'react'
-import { Controlled, UnControlled } from './ControlledVsUncontrolled'
+import Ref from './Ref'
 
 function App() {
   return (
     <>
       <h1>Practice</h1>
-      <Controlled />
-      <UnControlled />
+      <Ref />
     </>
   )
 }
